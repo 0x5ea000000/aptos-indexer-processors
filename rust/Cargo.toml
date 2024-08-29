@@ -75,7 +75,7 @@ google-cloud-pubsub = "0.18.0"
 hex = "0.4.3"
 itertools = "0.12.1"
 lazy_static = "1.4.0"
-jemallocator = { version = "0.5.0", features = [
+jemallocator = { package = "tikv-jemallocator", version = "0.5.0", features = [
     "profiling",
     "unprefixed_malloc_on_supported_platforms",
 ] }
